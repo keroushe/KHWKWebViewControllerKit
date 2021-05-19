@@ -1,0 +1,6 @@
+framework module KHWKWebViewControllerKit {
+  umbrella header "KHWKWebViewControllerKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

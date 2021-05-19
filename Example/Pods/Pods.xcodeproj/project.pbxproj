@@ -1,0 +1,1107 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0470B3BD511A3B5AAB5571A43527DC79 /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 27E12E3D2779B5C7A8301A94F715DB4C /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		06A1182DD1CDA5549685BDE5F83E8177 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 72A95F8027E3EB86CB9AE2D7539201FE /* MASViewConstraint.m */; };
+		08832480EAAA1D6255C019620263DAE3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25045C82DCD552AB3C1862E8F1B78A65 /* UIKit.framework */; };
+		08FC5121954557A475AD92E527BCCCD1 /* Masonry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 442E2090D41257DEFB1ED2D0EC9DE2BD /* Masonry.framework */; };
+		0DDA1E5F07B8FB19DF535144C1382728 /* Pods-KHWKWebViewControllerKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 60C5002A544638B99A179F6EF8A06AC6 /* Pods-KHWKWebViewControllerKit_Example-dummy.m */; };
+		150CA25D5AF07C595AAD38BFB84C40D9 /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = D12E9F350C1C8076BE92719B89951AD8 /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		240E762597807ECB80C92FE04C26D9F7 /* KHWKWebViewJSController.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CD59F8555CB1CE1607BF15D9C5B123D /* KHWKWebViewJSController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2ED17397F2A73C44FB29B17F555D1051 /* Masonry-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CF8069504999FB8BF5FA1529175AA74 /* Masonry-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		40B8EACBC4FDE41EB1AD67885E62D7BA /* Pods-KHWKWebViewControllerKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 005CDD2540FA82140EBDDC5F77F26985 /* Pods-KHWKWebViewControllerKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4723E7C89073B5656B3E14A15370813B /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 071EEE0A3CE36E163E09EA7F7915F1DE /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		49CEE8EAB76C4C72F2B81F35BE5F5BC8 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = A8BCCE8C6C17F326AFEDF4357C62ADAF /* MASViewAttribute.m */; };
+		4BE6A1F87665CB2FD3AFB63FEED888FD /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4497913DB548AE2E03103D3A97F34F /* View+MASAdditions.m */; };
+		51CAAC067755C48E393123A0FEC1C79C /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 837834476F3329FA118B081516D4FC28 /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		57B43EA0D637C4C3ABC2DC24389F9D39 /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 607937A372913475EE7EAE532760ACD4 /* MASUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6757C8CC9FA5CCB6E6015D67FA079A29 /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = A78D3443F105E00FC21FE5A357C8F716 /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6BE96EA36A841BA9A7E69C975EF31417 /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 047EE388CF208BD5F57049BD98558C94 /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6D62067E953542B2CF8BD6C690AF98C5 /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 02CA69FDFD4D7BB11F8E3E2E7A0B9879 /* MASConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		717FE238121F99D78965783B1F2B9973 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 9073C3B74BC30C55B4EB5B2A596EAD72 /* MASConstraint.m */; };
+		75DC476170B52A4435A4D982C14A65D3 /* KHWeakWebViewScriptMessageDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E5A27CBB2017D23387FC6F5CAFFB696 /* KHWeakWebViewScriptMessageDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		76F876DAACE700B950A33BB348602180 /* KHWeakWebViewScriptMessageDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 19181BF65B335BA7A275CE527B894B83 /* KHWeakWebViewScriptMessageDelegate.m */; };
+		7845C570D51D84AD71F4338C110E3201 /* NSBundle+KHWKWebView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0362FD4FEBED6264486340ABFE547F9E /* NSBundle+KHWKWebView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7B9E83AAB3FE5F8C641A491D1A1FE599 /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FF4AF21902029EC43C354AC0978CE49 /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7F5E17333588C0902204E0CF072EA133 /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = EDA8A3885BC33F25CB32442EB2449111 /* Masonry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83AD90BFEA40A654667F16482AA64E88 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 470C5CD1265270E95A8A89443C727427 /* MASConstraintMaker.m */; };
+		88B9D111440856EEC91DC63F11B06947 /* KHWKWebViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 508A99223B1DAB7EE2AB9C6999396E40 /* KHWKWebViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		89B58A94D5D19A1326E32060BC0860F8 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E17443EA85E103F4DD0553AB6BB942A /* MASLayoutConstraint.m */; };
+		89F20633F2F1EA845B581F0ECD983DE8 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 342C4D9B5E1E36390E7AF01E35444998 /* ViewController+MASAdditions.m */; };
+		9C38BFE651DA0CECD9751BCC160D93EC /* KHWKWebViewControllerKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DD296AB2AB08B695C12BDBA927156C2 /* KHWKWebViewControllerKit-dummy.m */; };
+		9C5D998A73DAE1E0BDBB1ACC910DD99C /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A85AE9E36F67A1B513CB8DA940771B4F /* Masonry-dummy.m */; };
+		9CC3B2FEE75B87242DA6D9238B0E3259 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 364448ECCDD691B76900A53E6F77BF10 /* Foundation.framework */; };
+		A66BEE748EEA54FCFD7C256DCE88B168 /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = B28EC2F4C626ED77509645BE3805CB29 /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD5BC3739705673F62D3FD663D4BC11B /* KHWKWebViewJSController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3996DFD6B4A9A1FE94450DEC55718E0 /* KHWKWebViewJSController.m */; };
+		AEDF7DA2EFB00900D97DBE4BAC7C990F /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 30EC6C5D191587619B42076546EDC448 /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEE5C3216988B5788DC8F7F72C076650 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 364448ECCDD691B76900A53E6F77BF10 /* Foundation.framework */; };
+		B14C71B0F7EF2F54D302A76349119102 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AEEBD88282BA13360CAA867D8465C75 /* NSArray+MASAdditions.m */; };
+		C07BC545DFCE17739425DC8D4AC18596 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = EB7CC7527FD599A1064055C060E14B43 /* MASCompositeConstraint.m */; };
+		C227E8E9860385C12A4CE197437975A5 /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 55960467D1B758EC688A18A171012E78 /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C6143FA5B733BFBD6DDA2428DD467130 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 364448ECCDD691B76900A53E6F77BF10 /* Foundation.framework */; };
+		C8F14ED954B11DC012B37D354BE21FD5 /* NSBundle+KHWKWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = D74366573B32A93C3D7E5DDFA18449C5 /* NSBundle+KHWKWebView.m */; };
+		CB45B7A6A0CC55B401E3AA2F8B7FB14B /* KHWKWebView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AD23EE5979133C686B301035B9784A1C /* KHWKWebView.bundle */; };
+		CFA7491729FA699B5D97416FB7513D87 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = E7851906D7976272A721C8C4E0CE9092 /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D55B44EC209008F26066081C7786C98F /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 86765B456E483806C4E13D2DD50E40A4 /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DFB91739D33CF82261935EE8F4D535A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 364448ECCDD691B76900A53E6F77BF10 /* Foundation.framework */; };
+		EC2BE3B27FAB21CEF2DCF06E55F231F5 /* Pods-KHWKWebViewControllerKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 86FD826C4E34E027DB26C3DBABE8F67D /* Pods-KHWKWebViewControllerKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F10CD9637B398397B40D23DCE036A638 /* KHWKWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 780686592AA100E2326FCBC4DB3ADE34 /* KHWKWebViewController.m */; };
+		F399F691CBD9CCC21FCD8477CE0D016B /* KHWKWebViewControllerKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BA4191E90118BA194F8EB759391B8E3C /* KHWKWebViewControllerKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F999EEA347F588B075CD9F429F4EE70E /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9370A151F01BE8B7B2F843AEA9EE3DCE /* WebKit.framework */; };
+		F9C4159C33CD64FCA5152064C4C26477 /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AD89987EC7EAE20D7034EEF9935E7CC /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FFEF2DED14089F562FBCC08899A53258 /* Pods-KHWKWebViewControllerKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CA6A8FC3882847A7BAEFD56F98C96506 /* Pods-KHWKWebViewControllerKit_Tests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5597A3104D092769EC0D4EEF4D5800A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 248C2EB56F45FCE6787BACF3517F47A9;
+			remoteInfo = "Pods-KHWKWebViewControllerKit_Example";
+		};
+		630281931DC57009B1EF7D46F7935DA2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 93FE8EEDC921DCC919366E0968F8B70B;
+			remoteInfo = KHWKWebViewControllerKit;
+		};
+		9F42F63B89FD567B53544EA1ECF72D1F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55AF53E6C77A10ED4985E04D74A8878E;
+			remoteInfo = Masonry;
+		};
+		B48642F047036A6142F1B3141477EC67 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55AF53E6C77A10ED4985E04D74A8878E;
+			remoteInfo = Masonry;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		005CDD2540FA82140EBDDC5F77F26985 /* Pods-KHWKWebViewControllerKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KHWKWebViewControllerKit_Tests-umbrella.h"; sourceTree = "<group>"; };
+		02CA69FDFD4D7BB11F8E3E2E7A0B9879 /* MASConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraint.h; path = Masonry/MASConstraint.h; sourceTree = "<group>"; };
+		0362FD4FEBED6264486340ABFE547F9E /* NSBundle+KHWKWebView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSBundle+KHWKWebView.h"; path = "KHWKWebViewControllerKit/Classes/NSBundle+KHWKWebView.h"; sourceTree = "<group>"; };
+		047EE388CF208BD5F57049BD98558C94 /* View+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
+		071EEE0A3CE36E163E09EA7F7915F1DE /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+MASDebugAdditions.m"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		19181BF65B335BA7A275CE527B894B83 /* KHWeakWebViewScriptMessageDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KHWeakWebViewScriptMessageDelegate.m; path = KHWKWebViewControllerKit/Classes/KHWeakWebViewScriptMessageDelegate.m; sourceTree = "<group>"; };
+		1FFE6CB5A4C03114BF9500F4D25D41BD /* Pods-KHWKWebViewControllerKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KHWKWebViewControllerKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		1FFED36A657123030ABB700256D73F15 /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Masonry.framework; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		25045C82DCD552AB3C1862E8F1B78A65 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		27E12E3D2779B5C7A8301A94F715DB4C /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		290F78F9C88AB833C445A7B39454490E /* KHWKWebViewControllerKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KHWKWebViewControllerKit.framework; path = KHWKWebViewControllerKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FA8BF9F2D26FEA1300C14E9887B0DD2 /* Pods-KHWKWebViewControllerKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KHWKWebViewControllerKit_Example-frameworks.sh"; sourceTree = "<group>"; };
+		30EC6C5D191587619B42076546EDC448 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		342C4D9B5E1E36390E7AF01E35444998 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		364448ECCDD691B76900A53E6F77BF10 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3A720B5FC39E86FB263108A1D82631B0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		3CD59F8555CB1CE1607BF15D9C5B123D /* KHWKWebViewJSController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KHWKWebViewJSController.h; path = KHWKWebViewControllerKit/Classes/KHWKWebViewJSController.h; sourceTree = "<group>"; };
+		3E537C1F47DA8B06DA4A71E3D14F4DE4 /* Masonry.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Masonry.modulemap; sourceTree = "<group>"; };
+		3E5A27CBB2017D23387FC6F5CAFFB696 /* KHWeakWebViewScriptMessageDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KHWeakWebViewScriptMessageDelegate.h; path = KHWKWebViewControllerKit/Classes/KHWeakWebViewScriptMessageDelegate.h; sourceTree = "<group>"; };
+		40744C9E8A4E15B759C3F9488C3DF5C4 /* Pods-KHWKWebViewControllerKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KHWKWebViewControllerKit_Example-Info.plist"; sourceTree = "<group>"; };
+		419A961AD957E23BAB6A998ED7623134 /* Masonry.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.release.xcconfig; sourceTree = "<group>"; };
+		427ED502D17BC1DC1313C8F9251BDF77 /* KHWKWebViewControllerKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KHWKWebViewControllerKit.modulemap; sourceTree = "<group>"; };
+		442E2090D41257DEFB1ED2D0EC9DE2BD /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		443D0FEDE33D5BF34AC03BDDD1A4A00B /* KHWKWebViewControllerKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KHWKWebViewControllerKit-prefix.pch"; sourceTree = "<group>"; };
+		470C5CD1265270E95A8A89443C727427 /* MASConstraintMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraintMaker.m; path = Masonry/MASConstraintMaker.m; sourceTree = "<group>"; };
+		4AD89987EC7EAE20D7034EEF9935E7CC /* MASCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
+		4CA90C9F43CA02164C9C974F40EA8004 /* KHWKWebViewControllerKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KHWKWebViewControllerKit.release.xcconfig; sourceTree = "<group>"; };
+		508A99223B1DAB7EE2AB9C6999396E40 /* KHWKWebViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KHWKWebViewController.h; path = KHWKWebViewControllerKit/Classes/KHWKWebViewController.h; sourceTree = "<group>"; };
+		55960467D1B758EC688A18A171012E78 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		6030E538B1E897EBBF880B84B5E998A6 /* KHWKWebViewControllerKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = KHWKWebViewControllerKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		605120F9EAD333C417C319AC9A973698 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		607937A372913475EE7EAE532760ACD4 /* MASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASUtilities.h; path = Masonry/MASUtilities.h; sourceTree = "<group>"; };
+		60BB95DBC32B1777763632FF5548BCE7 /* Pods-KHWKWebViewControllerKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KHWKWebViewControllerKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		60C5002A544638B99A179F6EF8A06AC6 /* Pods-KHWKWebViewControllerKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KHWKWebViewControllerKit_Example-dummy.m"; sourceTree = "<group>"; };
+		643B031A84FDA7BACA515D8A3A46C926 /* Pods_KHWKWebViewControllerKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KHWKWebViewControllerKit_Tests.framework; path = "Pods-KHWKWebViewControllerKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CF8069504999FB8BF5FA1529175AA74 /* Masonry-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-umbrella.h"; sourceTree = "<group>"; };
+		6DD296AB2AB08B695C12BDBA927156C2 /* KHWKWebViewControllerKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KHWKWebViewControllerKit-dummy.m"; sourceTree = "<group>"; };
+		6E17443EA85E103F4DD0553AB6BB942A /* MASLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASLayoutConstraint.m; path = Masonry/MASLayoutConstraint.m; sourceTree = "<group>"; };
+		6FF4AF21902029EC43C354AC0978CE49 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASLayoutConstraint.h; path = Masonry/MASLayoutConstraint.h; sourceTree = "<group>"; };
+		72A95F8027E3EB86CB9AE2D7539201FE /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
+		780686592AA100E2326FCBC4DB3ADE34 /* KHWKWebViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KHWKWebViewController.m; path = KHWKWebViewControllerKit/Classes/KHWKWebViewController.m; sourceTree = "<group>"; };
+		837834476F3329FA118B081516D4FC28 /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
+		86765B456E483806C4E13D2DD50E40A4 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASShorthandAdditions.h"; path = "Masonry/View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		86FD826C4E34E027DB26C3DBABE8F67D /* Pods-KHWKWebViewControllerKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KHWKWebViewControllerKit_Example-umbrella.h"; sourceTree = "<group>"; };
+		8AEEBD88282BA13360CAA867D8465C75 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		9073C3B74BC30C55B4EB5B2A596EAD72 /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Masonry/MASConstraint.m; sourceTree = "<group>"; };
+		9370A151F01BE8B7B2F843AEA9EE3DCE /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/WebKit.framework; sourceTree = DEVELOPER_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A78D3443F105E00FC21FE5A357C8F716 /* MASViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
+		A85AE9E36F67A1B513CB8DA940771B4F /* Masonry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Masonry-dummy.m"; sourceTree = "<group>"; };
+		A8BCCE8C6C17F326AFEDF4357C62ADAF /* MASViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewAttribute.m; path = Masonry/MASViewAttribute.m; sourceTree = "<group>"; };
+		AB8F6EC3F3AEF6BBBB0E829CBFD826B4 /* Pods-KHWKWebViewControllerKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KHWKWebViewControllerKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		AD23EE5979133C686B301035B9784A1C /* KHWKWebView.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = KHWKWebView.bundle; path = KHWKWebViewControllerKit/Assets/KHWKWebView.bundle; sourceTree = "<group>"; };
+		AF4497913DB548AE2E03103D3A97F34F /* View+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "View+MASAdditions.m"; path = "Masonry/View+MASAdditions.m"; sourceTree = "<group>"; };
+		B28EC2F4C626ED77509645BE3805CB29 /* MASConstraintMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraintMaker.h; path = Masonry/MASConstraintMaker.h; sourceTree = "<group>"; };
+		B613B30D3B81944AB713884033C72113 /* Pods-KHWKWebViewControllerKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KHWKWebViewControllerKit_Tests.modulemap"; sourceTree = "<group>"; };
+		B7CC8E60C29E770294EFC5D3D4B724D9 /* Pods-KHWKWebViewControllerKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KHWKWebViewControllerKit_Tests-Info.plist"; sourceTree = "<group>"; };
+		BA4191E90118BA194F8EB759391B8E3C /* KHWKWebViewControllerKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KHWKWebViewControllerKit-umbrella.h"; sourceTree = "<group>"; };
+		BB84390AD091F118088CE65082AFD6CF /* Pods-KHWKWebViewControllerKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KHWKWebViewControllerKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		BDB676D9D5D3AFD89D8DDCE3369D4BAC /* Masonry-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-prefix.pch"; sourceTree = "<group>"; };
+		C50F3BB79FE7EAD84AF63CD794EF71F2 /* KHWKWebViewControllerKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KHWKWebViewControllerKit-Info.plist"; sourceTree = "<group>"; };
+		CA6A8FC3882847A7BAEFD56F98C96506 /* Pods-KHWKWebViewControllerKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KHWKWebViewControllerKit_Tests-dummy.m"; sourceTree = "<group>"; };
+		CF47BCC2259CDAEA6161DFE7BF3872A1 /* Pods-KHWKWebViewControllerKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KHWKWebViewControllerKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		D10BE4D1050BC680E621490084157389 /* Pods-KHWKWebViewControllerKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KHWKWebViewControllerKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		D12E9F350C1C8076BE92719B89951AD8 /* MASViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewConstraint.h; path = Masonry/MASViewConstraint.h; sourceTree = "<group>"; };
+		D74366573B32A93C3D7E5DDFA18449C5 /* NSBundle+KHWKWebView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSBundle+KHWKWebView.m"; path = "KHWKWebViewControllerKit/Classes/NSBundle+KHWKWebView.m"; sourceTree = "<group>"; };
+		DEB3AEC0A4A2295B2F610A3EDBF72D07 /* Pods-KHWKWebViewControllerKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KHWKWebViewControllerKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DFA1012B6A8BD076CD9F09831AE37A01 /* Masonry-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Masonry-Info.plist"; sourceTree = "<group>"; };
+		E3996DFD6B4A9A1FE94450DEC55718E0 /* KHWKWebViewJSController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KHWKWebViewJSController.m; path = KHWKWebViewControllerKit/Classes/KHWKWebViewJSController.m; sourceTree = "<group>"; };
+		E7851906D7976272A721C8C4E0CE9092 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+MASDebugAdditions.h"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		EA7BC6CF68924DC9089792D29F54EBF2 /* Pods_KHWKWebViewControllerKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KHWKWebViewControllerKit_Example.framework; path = "Pods-KHWKWebViewControllerKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB7CC7527FD599A1064055C060E14B43 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
+		EDA8A3885BC33F25CB32442EB2449111 /* Masonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Masonry.h; path = Masonry/Masonry.h; sourceTree = "<group>"; };
+		F287598D192FA586BD4AECCD85B988A4 /* Masonry.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.debug.xcconfig; sourceTree = "<group>"; };
+		F67D054156575C1784E551867E86FA9E /* Pods-KHWKWebViewControllerKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KHWKWebViewControllerKit_Example.release.xcconfig"; sourceTree = "<group>"; };
+		F771B5667003BC14DCEBE3B3D525B79A /* Pods-KHWKWebViewControllerKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KHWKWebViewControllerKit_Example.modulemap"; sourceTree = "<group>"; };
+		FA3FEF60BED6C0B18875233AAFA9297F /* KHWKWebViewControllerKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KHWKWebViewControllerKit.debug.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		016C40B3B5298BF0446A238D138A3677 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CC3B2FEE75B87242DA6D9238B0E3259 /* Foundation.framework in Frameworks */,
+				08832480EAAA1D6255C019620263DAE3 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A7E79689C325B34ABA0E834652AC7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFB91739D33CF82261935EE8F4D535A5 /* Foundation.framework in Frameworks */,
+				08FC5121954557A475AD92E527BCCCD1 /* Masonry.framework in Frameworks */,
+				F999EEA347F588B075CD9F429F4EE70E /* WebKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F5B4AB9CD71EB8EAF8546E7ED1B8568 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6143FA5B733BFBD6DDA2428DD467130 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58827149AFC007E3A0ED9072A6319174 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEE5C3216988B5788DC8F7F72C076650 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05AE6717246A2BB1C05C1EE7B05E06FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				290F78F9C88AB833C445A7B39454490E /* KHWKWebViewControllerKit.framework */,
+				1FFED36A657123030ABB700256D73F15 /* Masonry.framework */,
+				EA7BC6CF68924DC9089792D29F54EBF2 /* Pods_KHWKWebViewControllerKit_Example.framework */,
+				643B031A84FDA7BACA515D8A3A46C926 /* Pods_KHWKWebViewControllerKit_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0AEF52E9A61D575AF171E2EF3FC17406 /* KHWKWebViewControllerKit */ = {
+			isa = PBXGroup;
+			children = (
+				3E5A27CBB2017D23387FC6F5CAFFB696 /* KHWeakWebViewScriptMessageDelegate.h */,
+				19181BF65B335BA7A275CE527B894B83 /* KHWeakWebViewScriptMessageDelegate.m */,
+				AD23EE5979133C686B301035B9784A1C /* KHWKWebView.bundle */,
+				508A99223B1DAB7EE2AB9C6999396E40 /* KHWKWebViewController.h */,
+				780686592AA100E2326FCBC4DB3ADE34 /* KHWKWebViewController.m */,
+				3CD59F8555CB1CE1607BF15D9C5B123D /* KHWKWebViewJSController.h */,
+				E3996DFD6B4A9A1FE94450DEC55718E0 /* KHWKWebViewJSController.m */,
+				0362FD4FEBED6264486340ABFE547F9E /* NSBundle+KHWKWebView.h */,
+				D74366573B32A93C3D7E5DDFA18449C5 /* NSBundle+KHWKWebView.m */,
+				B9DE718ABB036D86723E094B20A601D9 /* Pod */,
+				81ACF7C9EE9E92EC559B5EAB98C72C9E /* Support Files */,
+			);
+			name = KHWKWebViewControllerKit;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		0CCC0CD98AB951949302B433AFE762AD /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				4AD89987EC7EAE20D7034EEF9935E7CC /* MASCompositeConstraint.h */,
+				EB7CC7527FD599A1064055C060E14B43 /* MASCompositeConstraint.m */,
+				02CA69FDFD4D7BB11F8E3E2E7A0B9879 /* MASConstraint.h */,
+				9073C3B74BC30C55B4EB5B2A596EAD72 /* MASConstraint.m */,
+				837834476F3329FA118B081516D4FC28 /* MASConstraint+Private.h */,
+				B28EC2F4C626ED77509645BE3805CB29 /* MASConstraintMaker.h */,
+				470C5CD1265270E95A8A89443C727427 /* MASConstraintMaker.m */,
+				6FF4AF21902029EC43C354AC0978CE49 /* MASLayoutConstraint.h */,
+				6E17443EA85E103F4DD0553AB6BB942A /* MASLayoutConstraint.m */,
+				EDA8A3885BC33F25CB32442EB2449111 /* Masonry.h */,
+				607937A372913475EE7EAE532760ACD4 /* MASUtilities.h */,
+				A78D3443F105E00FC21FE5A357C8F716 /* MASViewAttribute.h */,
+				A8BCCE8C6C17F326AFEDF4357C62ADAF /* MASViewAttribute.m */,
+				D12E9F350C1C8076BE92719B89951AD8 /* MASViewConstraint.h */,
+				72A95F8027E3EB86CB9AE2D7539201FE /* MASViewConstraint.m */,
+				30EC6C5D191587619B42076546EDC448 /* NSArray+MASAdditions.h */,
+				8AEEBD88282BA13360CAA867D8465C75 /* NSArray+MASAdditions.m */,
+				27E12E3D2779B5C7A8301A94F715DB4C /* NSArray+MASShorthandAdditions.h */,
+				E7851906D7976272A721C8C4E0CE9092 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				071EEE0A3CE36E163E09EA7F7915F1DE /* NSLayoutConstraint+MASDebugAdditions.m */,
+				047EE388CF208BD5F57049BD98558C94 /* View+MASAdditions.h */,
+				AF4497913DB548AE2E03103D3A97F34F /* View+MASAdditions.m */,
+				86765B456E483806C4E13D2DD50E40A4 /* View+MASShorthandAdditions.h */,
+				55960467D1B758EC688A18A171012E78 /* ViewController+MASAdditions.h */,
+				342C4D9B5E1E36390E7AF01E35444998 /* ViewController+MASAdditions.m */,
+				C84A449C2DE4F91F0620A5147DD42E0F /* Support Files */,
+			);
+			name = Masonry;
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		361C9773BCCF47129FDEEDA1B390D466 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0AEF52E9A61D575AF171E2EF3FC17406 /* KHWKWebViewControllerKit */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		50A264DB20AB64A85A659017B6CAEEE3 /* Pods-KHWKWebViewControllerKit_Example */ = {
+			isa = PBXGroup;
+			children = (
+				F771B5667003BC14DCEBE3B3D525B79A /* Pods-KHWKWebViewControllerKit_Example.modulemap */,
+				AB8F6EC3F3AEF6BBBB0E829CBFD826B4 /* Pods-KHWKWebViewControllerKit_Example-acknowledgements.markdown */,
+				BB84390AD091F118088CE65082AFD6CF /* Pods-KHWKWebViewControllerKit_Example-acknowledgements.plist */,
+				60C5002A544638B99A179F6EF8A06AC6 /* Pods-KHWKWebViewControllerKit_Example-dummy.m */,
+				2FA8BF9F2D26FEA1300C14E9887B0DD2 /* Pods-KHWKWebViewControllerKit_Example-frameworks.sh */,
+				40744C9E8A4E15B759C3F9488C3DF5C4 /* Pods-KHWKWebViewControllerKit_Example-Info.plist */,
+				86FD826C4E34E027DB26C3DBABE8F67D /* Pods-KHWKWebViewControllerKit_Example-umbrella.h */,
+				CF47BCC2259CDAEA6161DFE7BF3872A1 /* Pods-KHWKWebViewControllerKit_Example.debug.xcconfig */,
+				F67D054156575C1784E551867E86FA9E /* Pods-KHWKWebViewControllerKit_Example.release.xcconfig */,
+			);
+			name = "Pods-KHWKWebViewControllerKit_Example";
+			path = "Target Support Files/Pods-KHWKWebViewControllerKit_Example";
+			sourceTree = "<group>";
+		};
+		7529FD53BCE26816CCD46658378AAF1B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0CCC0CD98AB951949302B433AFE762AD /* Masonry */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7534B9BC224F68E32933E9CD536F5F90 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				364448ECCDD691B76900A53E6F77BF10 /* Foundation.framework */,
+				25045C82DCD552AB3C1862E8F1B78A65 /* UIKit.framework */,
+				9370A151F01BE8B7B2F843AEA9EE3DCE /* WebKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7984AA83F84215BAB6A032577B3B27AD /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				50A264DB20AB64A85A659017B6CAEEE3 /* Pods-KHWKWebViewControllerKit_Example */,
+				98179718AB1472A19D614CEF3633C0E8 /* Pods-KHWKWebViewControllerKit_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7B44D3499ECB16495643CFE8844F3880 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				442E2090D41257DEFB1ED2D0EC9DE2BD /* Masonry.framework */,
+				7534B9BC224F68E32933E9CD536F5F90 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		81ACF7C9EE9E92EC559B5EAB98C72C9E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				427ED502D17BC1DC1313C8F9251BDF77 /* KHWKWebViewControllerKit.modulemap */,
+				6DD296AB2AB08B695C12BDBA927156C2 /* KHWKWebViewControllerKit-dummy.m */,
+				C50F3BB79FE7EAD84AF63CD794EF71F2 /* KHWKWebViewControllerKit-Info.plist */,
+				443D0FEDE33D5BF34AC03BDDD1A4A00B /* KHWKWebViewControllerKit-prefix.pch */,
+				BA4191E90118BA194F8EB759391B8E3C /* KHWKWebViewControllerKit-umbrella.h */,
+				FA3FEF60BED6C0B18875233AAFA9297F /* KHWKWebViewControllerKit.debug.xcconfig */,
+				4CA90C9F43CA02164C9C974F40EA8004 /* KHWKWebViewControllerKit.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/KHWKWebViewControllerKit";
+			sourceTree = "<group>";
+		};
+		98179718AB1472A19D614CEF3633C0E8 /* Pods-KHWKWebViewControllerKit_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B613B30D3B81944AB713884033C72113 /* Pods-KHWKWebViewControllerKit_Tests.modulemap */,
+				DEB3AEC0A4A2295B2F610A3EDBF72D07 /* Pods-KHWKWebViewControllerKit_Tests-acknowledgements.markdown */,
+				1FFE6CB5A4C03114BF9500F4D25D41BD /* Pods-KHWKWebViewControllerKit_Tests-acknowledgements.plist */,
+				CA6A8FC3882847A7BAEFD56F98C96506 /* Pods-KHWKWebViewControllerKit_Tests-dummy.m */,
+				B7CC8E60C29E770294EFC5D3D4B724D9 /* Pods-KHWKWebViewControllerKit_Tests-Info.plist */,
+				005CDD2540FA82140EBDDC5F77F26985 /* Pods-KHWKWebViewControllerKit_Tests-umbrella.h */,
+				D10BE4D1050BC680E621490084157389 /* Pods-KHWKWebViewControllerKit_Tests.debug.xcconfig */,
+				60BB95DBC32B1777763632FF5548BCE7 /* Pods-KHWKWebViewControllerKit_Tests.release.xcconfig */,
+			);
+			name = "Pods-KHWKWebViewControllerKit_Tests";
+			path = "Target Support Files/Pods-KHWKWebViewControllerKit_Tests";
+			sourceTree = "<group>";
+		};
+		B9DE718ABB036D86723E094B20A601D9 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				6030E538B1E897EBBF880B84B5E998A6 /* KHWKWebViewControllerKit.podspec */,
+				605120F9EAD333C417C319AC9A973698 /* LICENSE */,
+				3A720B5FC39E86FB263108A1D82631B0 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		C84A449C2DE4F91F0620A5147DD42E0F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3E537C1F47DA8B06DA4A71E3D14F4DE4 /* Masonry.modulemap */,
+				A85AE9E36F67A1B513CB8DA940771B4F /* Masonry-dummy.m */,
+				DFA1012B6A8BD076CD9F09831AE37A01 /* Masonry-Info.plist */,
+				BDB676D9D5D3AFD89D8DDCE3369D4BAC /* Masonry-prefix.pch */,
+				6CF8069504999FB8BF5FA1529175AA74 /* Masonry-umbrella.h */,
+				F287598D192FA586BD4AECCD85B988A4 /* Masonry.debug.xcconfig */,
+				419A961AD957E23BAB6A998ED7623134 /* Masonry.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Masonry";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				361C9773BCCF47129FDEEDA1B390D466 /* Development Pods */,
+				7B44D3499ECB16495643CFE8844F3880 /* Frameworks */,
+				7529FD53BCE26816CCD46658378AAF1B /* Pods */,
+				05AE6717246A2BB1C05C1EE7B05E06FE /* Products */,
+				7984AA83F84215BAB6A032577B3B27AD /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		69314EE5CCC8F7E474E979796602B355 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC2BE3B27FAB21CEF2DCF06E55F231F5 /* Pods-KHWKWebViewControllerKit_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7559BD45ABC61837176BE1CF68EDA358 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40B8EACBC4FDE41EB1AD67885E62D7BA /* Pods-KHWKWebViewControllerKit_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5125C20DAE9D8EFC724F508BA554F39 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75DC476170B52A4435A4D982C14A65D3 /* KHWeakWebViewScriptMessageDelegate.h in Headers */,
+				88B9D111440856EEC91DC63F11B06947 /* KHWKWebViewController.h in Headers */,
+				F399F691CBD9CCC21FCD8477CE0D016B /* KHWKWebViewControllerKit-umbrella.h in Headers */,
+				240E762597807ECB80C92FE04C26D9F7 /* KHWKWebViewJSController.h in Headers */,
+				7845C570D51D84AD71F4338C110E3201 /* NSBundle+KHWKWebView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F118838D7932971052F9BC5129CEE614 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9C4159C33CD64FCA5152064C4C26477 /* MASCompositeConstraint.h in Headers */,
+				51CAAC067755C48E393123A0FEC1C79C /* MASConstraint+Private.h in Headers */,
+				6D62067E953542B2CF8BD6C690AF98C5 /* MASConstraint.h in Headers */,
+				A66BEE748EEA54FCFD7C256DCE88B168 /* MASConstraintMaker.h in Headers */,
+				7B9E83AAB3FE5F8C641A491D1A1FE599 /* MASLayoutConstraint.h in Headers */,
+				2ED17397F2A73C44FB29B17F555D1051 /* Masonry-umbrella.h in Headers */,
+				7F5E17333588C0902204E0CF072EA133 /* Masonry.h in Headers */,
+				57B43EA0D637C4C3ABC2DC24389F9D39 /* MASUtilities.h in Headers */,
+				6757C8CC9FA5CCB6E6015D67FA079A29 /* MASViewAttribute.h in Headers */,
+				150CA25D5AF07C595AAD38BFB84C40D9 /* MASViewConstraint.h in Headers */,
+				AEDF7DA2EFB00900D97DBE4BAC7C990F /* NSArray+MASAdditions.h in Headers */,
+				0470B3BD511A3B5AAB5571A43527DC79 /* NSArray+MASShorthandAdditions.h in Headers */,
+				CFA7491729FA699B5D97416FB7513D87 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */,
+				6BE96EA36A841BA9A7E69C975EF31417 /* View+MASAdditions.h in Headers */,
+				D55B44EC209008F26066081C7786C98F /* View+MASShorthandAdditions.h in Headers */,
+				C227E8E9860385C12A4CE197437975A5 /* ViewController+MASAdditions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		248C2EB56F45FCE6787BACF3517F47A9 /* Pods-KHWKWebViewControllerKit_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A22D87114FBC1FF724879ECDF77C2EA /* Build configuration list for PBXNativeTarget "Pods-KHWKWebViewControllerKit_Example" */;
+			buildPhases = (
+				69314EE5CCC8F7E474E979796602B355 /* Headers */,
+				E8AE717C84AA43C780717CCEC733430A /* Sources */,
+				4F5B4AB9CD71EB8EAF8546E7ED1B8568 /* Frameworks */,
+				D65BA4084916FA628737F247A1D46F80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B7D7B9382D9EDF7AE6FFA1C5C5FB1BB5 /* PBXTargetDependency */,
+				07608921D90BFDCFD342E59428175E8A /* PBXTargetDependency */,
+			);
+			name = "Pods-KHWKWebViewControllerKit_Example";
+			productName = "Pods-KHWKWebViewControllerKit_Example";
+			productReference = EA7BC6CF68924DC9089792D29F54EBF2 /* Pods_KHWKWebViewControllerKit_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		55AF53E6C77A10ED4985E04D74A8878E /* Masonry */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55B6C1E590D71CB5AE58DD3E6549D6F1 /* Build configuration list for PBXNativeTarget "Masonry" */;
+			buildPhases = (
+				F118838D7932971052F9BC5129CEE614 /* Headers */,
+				4A7F86D4BF398998D95DFD8C4C2DE69C /* Sources */,
+				016C40B3B5298BF0446A238D138A3677 /* Frameworks */,
+				2F7C7E18F585D5A44343E463C87D776A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Masonry;
+			productName = Masonry;
+			productReference = 1FFED36A657123030ABB700256D73F15 /* Masonry.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		84E320DE6A49DB4ACB5C1713EB74BDDA /* Pods-KHWKWebViewControllerKit_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B33429FC48A952890F85935EE3ABCAE4 /* Build configuration list for PBXNativeTarget "Pods-KHWKWebViewControllerKit_Tests" */;
+			buildPhases = (
+				7559BD45ABC61837176BE1CF68EDA358 /* Headers */,
+				6CB487BF4A34BD35CC53EFE03A6C633B /* Sources */,
+				58827149AFC007E3A0ED9072A6319174 /* Frameworks */,
+				E3A41356F1A970B28370811226F298F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				427CD22398C4878E93E90C3C393246B2 /* PBXTargetDependency */,
+			);
+			name = "Pods-KHWKWebViewControllerKit_Tests";
+			productName = "Pods-KHWKWebViewControllerKit_Tests";
+			productReference = 643B031A84FDA7BACA515D8A3A46C926 /* Pods_KHWKWebViewControllerKit_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		93FE8EEDC921DCC919366E0968F8B70B /* KHWKWebViewControllerKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F8EEF39630F85FA58E7A4889445AAD1 /* Build configuration list for PBXNativeTarget "KHWKWebViewControllerKit" */;
+			buildPhases = (
+				E5125C20DAE9D8EFC724F508BA554F39 /* Headers */,
+				09C5471A7DB08CB8B69EEFD306EDE116 /* Sources */,
+				18A7E79689C325B34ABA0E834652AC7E /* Frameworks */,
+				8A13EE6B98DA457745B925044D16EE48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				185AF97CDC85D1EB4F9280D8AD0F9A17 /* PBXTargetDependency */,
+			);
+			name = KHWKWebViewControllerKit;
+			productName = KHWKWebViewControllerKit;
+			productReference = 290F78F9C88AB833C445A7B39454490E /* KHWKWebViewControllerKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 05AE6717246A2BB1C05C1EE7B05E06FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				93FE8EEDC921DCC919366E0968F8B70B /* KHWKWebViewControllerKit */,
+				55AF53E6C77A10ED4985E04D74A8878E /* Masonry */,
+				248C2EB56F45FCE6787BACF3517F47A9 /* Pods-KHWKWebViewControllerKit_Example */,
+				84E320DE6A49DB4ACB5C1713EB74BDDA /* Pods-KHWKWebViewControllerKit_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2F7C7E18F585D5A44343E463C87D776A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A13EE6B98DA457745B925044D16EE48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB45B7A6A0CC55B401E3AA2F8B7FB14B /* KHWKWebView.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D65BA4084916FA628737F247A1D46F80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3A41356F1A970B28370811226F298F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		09C5471A7DB08CB8B69EEFD306EDE116 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76F876DAACE700B950A33BB348602180 /* KHWeakWebViewScriptMessageDelegate.m in Sources */,
+				F10CD9637B398397B40D23DCE036A638 /* KHWKWebViewController.m in Sources */,
+				9C38BFE651DA0CECD9751BCC160D93EC /* KHWKWebViewControllerKit-dummy.m in Sources */,
+				AD5BC3739705673F62D3FD663D4BC11B /* KHWKWebViewJSController.m in Sources */,
+				C8F14ED954B11DC012B37D354BE21FD5 /* NSBundle+KHWKWebView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A7F86D4BF398998D95DFD8C4C2DE69C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C07BC545DFCE17739425DC8D4AC18596 /* MASCompositeConstraint.m in Sources */,
+				717FE238121F99D78965783B1F2B9973 /* MASConstraint.m in Sources */,
+				83AD90BFEA40A654667F16482AA64E88 /* MASConstraintMaker.m in Sources */,
+				89B58A94D5D19A1326E32060BC0860F8 /* MASLayoutConstraint.m in Sources */,
+				9C5D998A73DAE1E0BDBB1ACC910DD99C /* Masonry-dummy.m in Sources */,
+				49CEE8EAB76C4C72F2B81F35BE5F5BC8 /* MASViewAttribute.m in Sources */,
+				06A1182DD1CDA5549685BDE5F83E8177 /* MASViewConstraint.m in Sources */,
+				B14C71B0F7EF2F54D302A76349119102 /* NSArray+MASAdditions.m in Sources */,
+				4723E7C89073B5656B3E14A15370813B /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				4BE6A1F87665CB2FD3AFB63FEED888FD /* View+MASAdditions.m in Sources */,
+				89F20633F2F1EA845B581F0ECD983DE8 /* ViewController+MASAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CB487BF4A34BD35CC53EFE03A6C633B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFEF2DED14089F562FBCC08899A53258 /* Pods-KHWKWebViewControllerKit_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8AE717C84AA43C780717CCEC733430A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DDA1E5F07B8FB19DF535144C1382728 /* Pods-KHWKWebViewControllerKit_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		07608921D90BFDCFD342E59428175E8A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Masonry;
+			target = 55AF53E6C77A10ED4985E04D74A8878E /* Masonry */;
+			targetProxy = 9F42F63B89FD567B53544EA1ECF72D1F /* PBXContainerItemProxy */;
+		};
+		185AF97CDC85D1EB4F9280D8AD0F9A17 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Masonry;
+			target = 55AF53E6C77A10ED4985E04D74A8878E /* Masonry */;
+			targetProxy = B48642F047036A6142F1B3141477EC67 /* PBXContainerItemProxy */;
+		};
+		427CD22398C4878E93E90C3C393246B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-KHWKWebViewControllerKit_Example";
+			target = 248C2EB56F45FCE6787BACF3517F47A9 /* Pods-KHWKWebViewControllerKit_Example */;
+			targetProxy = 5597A3104D092769EC0D4EEF4D5800A2 /* PBXContainerItemProxy */;
+		};
+		B7D7B9382D9EDF7AE6FFA1C5C5FB1BB5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KHWKWebViewControllerKit;
+			target = 93FE8EEDC921DCC919366E0968F8B70B /* KHWKWebViewControllerKit */;
+			targetProxy = 630281931DC57009B1EF7D46F7935DA2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		171F3F3E19EE832E55B7307B32ED3615 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F287598D192FA586BD4AECCD85B988A4 /* Masonry.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Masonry/Masonry-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
+				PRODUCT_MODULE_NAME = Masonry;
+				PRODUCT_NAME = Masonry;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2429E36571B7337218C3D6D3362F9BA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D10BE4D1050BC680E621490084157389 /* Pods-KHWKWebViewControllerKit_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KHWKWebViewControllerKit_Tests/Pods-KHWKWebViewControllerKit_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KHWKWebViewControllerKit_Tests/Pods-KHWKWebViewControllerKit_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		344E4EC43F44F1E36A50D27407A45744 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 419A961AD957E23BAB6A998ED7623134 /* Masonry.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Masonry/Masonry-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
+				PRODUCT_MODULE_NAME = Masonry;
+				PRODUCT_NAME = Masonry;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		66C24597454F2A0D47766BB132429FAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CA90C9F43CA02164C9C974F40EA8004 /* KHWKWebViewControllerKit.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KHWKWebViewControllerKit/KHWKWebViewControllerKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KHWKWebViewControllerKit/KHWKWebViewControllerKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KHWKWebViewControllerKit/KHWKWebViewControllerKit.modulemap";
+				PRODUCT_MODULE_NAME = KHWKWebViewControllerKit;
+				PRODUCT_NAME = KHWKWebViewControllerKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		96FFBF16BC4823ABAEFA53B82B3BEBA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA3FEF60BED6C0B18875233AAFA9297F /* KHWKWebViewControllerKit.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KHWKWebViewControllerKit/KHWKWebViewControllerKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KHWKWebViewControllerKit/KHWKWebViewControllerKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KHWKWebViewControllerKit/KHWKWebViewControllerKit.modulemap";
+				PRODUCT_MODULE_NAME = KHWKWebViewControllerKit;
+				PRODUCT_NAME = KHWKWebViewControllerKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B3D77C43DD5A632344661AFB91099B06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60BB95DBC32B1777763632FF5548BCE7 /* Pods-KHWKWebViewControllerKit_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KHWKWebViewControllerKit_Tests/Pods-KHWKWebViewControllerKit_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KHWKWebViewControllerKit_Tests/Pods-KHWKWebViewControllerKit_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		DC4B69057FF077916FC830EAC991A9FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F67D054156575C1784E551867E86FA9E /* Pods-KHWKWebViewControllerKit_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KHWKWebViewControllerKit_Example/Pods-KHWKWebViewControllerKit_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KHWKWebViewControllerKit_Example/Pods-KHWKWebViewControllerKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F4183A41CFC5F6344EF4906A814335FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF47BCC2259CDAEA6161DFE7BF3872A1 /* Pods-KHWKWebViewControllerKit_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KHWKWebViewControllerKit_Example/Pods-KHWKWebViewControllerKit_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KHWKWebViewControllerKit_Example/Pods-KHWKWebViewControllerKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3A22D87114FBC1FF724879ECDF77C2EA /* Build configuration list for PBXNativeTarget "Pods-KHWKWebViewControllerKit_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4183A41CFC5F6344EF4906A814335FD /* Debug */,
+				DC4B69057FF077916FC830EAC991A9FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55B6C1E590D71CB5AE58DD3E6549D6F1 /* Build configuration list for PBXNativeTarget "Masonry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				171F3F3E19EE832E55B7307B32ED3615 /* Debug */,
+				344E4EC43F44F1E36A50D27407A45744 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F8EEF39630F85FA58E7A4889445AAD1 /* Build configuration list for PBXNativeTarget "KHWKWebViewControllerKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96FFBF16BC4823ABAEFA53B82B3BEBA9 /* Debug */,
+				66C24597454F2A0D47766BB132429FAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B33429FC48A952890F85935EE3ABCAE4 /* Build configuration list for PBXNativeTarget "Pods-KHWKWebViewControllerKit_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2429E36571B7337218C3D6D3362F9BA9 /* Debug */,
+				B3D77C43DD5A632344661AFB91099B06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

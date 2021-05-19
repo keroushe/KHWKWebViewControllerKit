@@ -1,0 +1,23 @@
+PODS:
+  - KHWKWebViewControllerKit (0.1.0):
+    - Masonry (~> 1.1.0)
+  - Masonry (1.1.0)
+
+DEPENDENCIES:
+  - KHWKWebViewControllerKit (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Masonry
+
+EXTERNAL SOURCES:
+  KHWKWebViewControllerKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  KHWKWebViewControllerKit: 2dbbbfc45c032382b715093af8450c712681cb26
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+
+PODFILE CHECKSUM: 27bc57d281bddd4ec6abb5803e2989d23ad7c9b9
+
+COCOAPODS: 1.10.1
