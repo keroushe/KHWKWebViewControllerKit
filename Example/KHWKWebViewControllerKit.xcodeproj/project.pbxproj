@@ -37,9 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		024B1C5F2116E3766A3127D1 /* KHWKWebViewControllerKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = KHWKWebViewControllerKit.podspec; path = ../KHWKWebViewControllerKit.podspec; sourceTree = "<group>"; };
+		024B1C5F2116E3766A3127D1 /* KHWKWebViewControllerKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = KHWKWebViewControllerKit.podspec; path = ../KHWKWebViewControllerKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		0864722D490758AFCA727BE8 /* Pods-KHWKWebViewControllerKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KHWKWebViewControllerKit_Tests.debug.xcconfig"; path = "Target Support Files/Pods-KHWKWebViewControllerKit_Tests/Pods-KHWKWebViewControllerKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		09688475F93119511064D00E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		09688475F93119511064D00E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		2026BCFAFD5605A7FF97D3BD /* Pods-KHWKWebViewControllerKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KHWKWebViewControllerKit_Example.release.xcconfig"; path = "Target Support Files/Pods-KHWKWebViewControllerKit_Example/Pods-KHWKWebViewControllerKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		37917A56FA46F2B7102614FE /* Pods-KHWKWebViewControllerKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KHWKWebViewControllerKit_Tests.release.xcconfig"; path = "Target Support Files/Pods-KHWKWebViewControllerKit_Tests/Pods-KHWKWebViewControllerKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* KHWKWebViewControllerKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KHWKWebViewControllerKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -65,7 +65,7 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BF8F14D20C67C296733627A9 /* Pods_KHWKWebViewControllerKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KHWKWebViewControllerKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DA05968AA3111A894E0EF2A7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		DA05968AA3111A894E0EF2A7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		EAF3892DFCB0136353FBE470 /* Pods-KHWKWebViewControllerKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KHWKWebViewControllerKit_Example.debug.xcconfig"; path = "Target Support Files/Pods-KHWKWebViewControllerKit_Example/Pods-KHWKWebViewControllerKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -193,7 +193,6 @@
 				0864722D490758AFCA727BE8 /* Pods-KHWKWebViewControllerKit_Tests.debug.xcconfig */,
 				37917A56FA46F2B7102614FE /* Pods-KHWKWebViewControllerKit_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -248,6 +247,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = keroushe;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = ATRT47E74F;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -258,6 +260,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -303,10 +306,12 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-KHWKWebViewControllerKit_Example/Pods-KHWKWebViewControllerKit_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/KHWKWebViewControllerKit/KHWKWebViewControllerKit.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KHWKWebViewControllerKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -494,6 +499,7 @@
 			baseConfigurationReference = EAF3892DFCB0136353FBE470 /* Pods-KHWKWebViewControllerKit_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ATRT47E74F;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "KHWKWebViewControllerKit/KHWKWebViewControllerKit-Prefix.pch";
 				INFOPLIST_FILE = "KHWKWebViewControllerKit/KHWKWebViewControllerKit-Info.plist";
@@ -510,6 +516,7 @@
 			baseConfigurationReference = 2026BCFAFD5605A7FF97D3BD /* Pods-KHWKWebViewControllerKit_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ATRT47E74F;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "KHWKWebViewControllerKit/KHWKWebViewControllerKit-Prefix.pch";
 				INFOPLIST_FILE = "KHWKWebViewControllerKit/KHWKWebViewControllerKit-Info.plist";

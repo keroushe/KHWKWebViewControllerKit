@@ -7,6 +7,7 @@
 //
 
 #import "KHViewController.h"
+#import <KHWKWebViewControllerKit/KHWKWebViewController.h>
 
 @interface KHViewController ()
 
@@ -18,6 +19,15 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+}
+
+- (void)viewDidAppear:(BOOL)animated
+{
+    [super viewDidAppear:animated];
+    
+    KHWKWebViewController *webVC = [[KHWKWebViewController alloc] init];
+    [webVC loadWebURLSring:@"https://www.baidu.com"];
+    [self.navigationController pushViewController:webVC animated:YES];
 }
 
 - (void)didReceiveMemoryWarning
